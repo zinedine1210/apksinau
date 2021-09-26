@@ -1,0 +1,198 @@
+*{
+  font-family: 'Segoe UI';
+}
+body{
+  background-color: #e4fde3 !important;
+}
+.font{
+  font-family:'open sans';
+}
+.fcu{
+  color: #00B28A !important;
+}
+.fcu2{
+  color: #35495E !important;
+}
+.bg1{
+  background-color: #00B28A;
+}
+.bg2{
+  background-color: #35495E !important;
+}
+.card-body-icon{
+  position: absolute;
+  z-index: 0;
+  top: 25px;
+  right: 10px;
+  opacity: 0.4;
+  font-size: 90px;
+}
+
+td i{
+  font-size: 25px;
+}
+
+
+.kepalaBuku .col-md-8 input{
+  /* style="height:70px; font-size:20px; font-weight:bold; border-radius:20px 0px 0px 20px;" */
+  height: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px 0px 0px 20px ;
+}
+.kepalaBuku .input-group{
+  height: 70px;
+}
+.kepalaBuku .form-select{
+  font-size: 20px;
+  font-weight: bold;
+}
+.kepalaBuku button{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+}
+#komentar .col-sm-10{
+  /* style="border-radius:0px 20px 20px;" */
+  border-radius: 0px 20px 20px;
+}
+#komentar .blockquote{
+  font-size: 18px;
+}
+#komentar .blockquote-footer{
+  font-size: 17px;
+}
+.profil{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.hapus{
+  cursor: pointer;
+}
+.potong{
+  max-height: 300px !important;
+  overflow: hidden !important;
+}
+
+a{
+  text-decoration: none !important;
+  color: #35495E !important;
+}
+a:hover{
+  color: #00B28A !important;
+}
+.borderradius{
+  border-radius: 15px !important;
+}
+
+.aktif{
+  border-bottom:2px solid#00B28A !important;
+  color: #00B28A !important;
+}
+
+.fa-quote-right{
+  margin-top: 110px;
+}
+
+@media screen and (max-width: 760px){
+  .fa-quote-right{
+    margin-top: 0px;
+  }
+  #postinganuser .col-md-10{
+    text-align: center;
+    padding-top: 10px;
+  }
+  .tengah{
+    text-align: center;
+    padding-top: 10px;
+  }
+  #balaspostinganuser .col-md-10{
+    text-align: center;
+    padding-top: 10px;
+  }
+  #notifikasi .col-md-10{
+    text-align: center;
+    padding-top: 10px;
+  }
+  .card-footer .col-2{
+    font-size: 13px;
+    width: 33%;
+    
+  }
+  .kplTimeline .nav-link{
+    font-size: 12px;
+  }
+  .detailmember .card-footer .col-2{
+    width: 110px;
+    font-size: 35px;
+  }
+  .cardBukuFooter .col-2{
+    width: 50%;
+  }
+  .cardBukuFooter button{
+    font-size: 12px;
+  }
+  .cardBukuFooter .col-md-2{
+    margin-top: 5px;
+  }
+  .kepalaBuku .col-md-8 input{
+    border-radius: 20px;
+    margin-bottom: 8px;
+  }
+  .kepalaBuku .form-select{
+    border-radius: 20px;
+  }
+  #komentar .profil{
+    width: 50px;
+    height: 50px;
+    text-align: start;
+  }
+  #komentar .col-sm-10{
+    border-radius: 20px;
+    font-size: 10px;
+  }
+  #komentar .blockquote{
+    font-size: 15px;
+  }
+  #komentar .blockquote-footer{
+    font-size: 13px;
+  }
+  #postinganuser .card-body{
+    font-size: 13px;
+  }
+  #postinganuser .card-header{
+    font-size: 15px;
+  }
+  #balaspostinganuser .card-body{
+    font-size: 13px;
+  }
+  #balaspostinganuser .card-header{
+    font-size: 15px;
+  }
+  #accordionpostinganbalasan .col-sm-12{
+    font-size: 13px;
+  }
+  tr th{
+    font-size: 15px;
+  }
+  tr td{
+    font-size: 13px;
+  }
+  td i{
+    font-size: 15px;
+  }
+  .kplTimeline .card-body .col-3{
+    width: 50%;
+  }
+  .kplTimeline .card-body .col-4{
+    width: 50%;
+  }
+  .kepalaBuku button{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+  }
+  
+}
